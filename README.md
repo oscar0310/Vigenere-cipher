@@ -37,7 +37,7 @@ Repositorio para realizar la tarea de la asignatura de SPSI de la codificación 
 
  ### Pasos iniciales
 
-Una vez instalado el instalado uv ( Estoy suponiendo que teneis git configurado en vuestro ordenador), clonais el repositorio:
+Una vez instalado uv ( Estoy suponiendo que teneis git configurado en vuestro ordenador), clonais el repositorio:
 >git clone https://github.com/oscar0310/Vigenere-cipher.git
 
 Accedemos al repositorio en nuestro ordenador y dentro de el ejecutamos:
