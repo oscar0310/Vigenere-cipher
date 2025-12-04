@@ -23,7 +23,7 @@ Repositorio para realizar la tarea de la asignatura de SPSI de la codificación 
  >python3.14 --version
 
 ## Inicializar un Proyecto con UV:
- Solo se hace para inicializar el proyecto, descrito de modo informativo.
+ Solo se hace para inicializar el proyecto, descrito de modo informativo. **¡¡¡ NOO HACER !!!**.
 
  Para inicializarlo se usa el siguiente comando:
  > uv init
