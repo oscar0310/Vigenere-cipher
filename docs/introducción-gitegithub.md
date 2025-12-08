@@ -97,7 +97,22 @@ Una vez ya tenemos subido todo en github y comprobamos que hemos solucionado el 
 ![Pull](../assets/pull.png)
 
 Creamos uno nuevo escogemos como **base: main y compare: nuestra rama.**
+Añadimos un titulo descriptivo de lo que añadimos y en la descripcion explicamos lo que hacemos, al final ponemos Closes #nº_issue, esto lo que hace es cerrar el issue con el que estabamos trabajando.
 
+Ejemplo:
+![Crear Pull](../assets/crear_pull.png)
 
+Una vez creado antes del **merge** con el main, deberíamos revisar varios para comprobar que está bien todo para no crear problemas. Para ello en un comentario puedes escribirlo y github nos notificará ejemplo de prueba:
+![Notificación](../assets/prueba_notificación.png)
+
+Para revisar los cambios se pulsa en Files changed:
+![Cambios](../assets/changed.png)
+
+En caso de querer comentar en algún archivo o linea de código que esté mal, se comenta en esta pestaña. Y para acabar la revisión se pulsa en submit review y tienes de opciones aprovarlo o comment que es explicarle lo que ha hecho mal.
+
+![Cometarios](../assets/coment.png)
+
+Una vez ya lo miremos alguno y lo aprobemos lo mergeamos con la primera opción:
+![Merge](../assets/merge.png)
 
 
