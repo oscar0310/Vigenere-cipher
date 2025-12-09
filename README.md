@@ -65,3 +65,26 @@ En caso de de querer borrarla:
 
 ## CRIPTOSISTEMA DE VIGENÈRE:
 
+El cifrado de Vigenère es un cifrado que se desarrolló para mejorar el cifrado de César. El texto plano se cifra mediante una clave. Para cifrarlos funciona de la siguiente manera.
+
+### MÉTODO DE CIFRADO DE VIGENÈRE:
+ 
+ - Primero se introduce el texto plano con una clave.
+ - Segundo se repite la clave tantas veces como haga falta para tener la misma longitud del texto.
+ - Tercero Cada letra del texto plano se desplaza con la letra correspondiente de la palabra clave. El desplazamiento será positivo y se le sumará cuantas posiciones hay que desplazarse para la letra de la clave correspondiente.
+ 
+ Con estos paso obtendríamos el texto plano codificado.
+
+### EJEMPLO:
+- Texto plano: Hola mundo.
+- Clave: sol.
+ 
+**CIFRADO DE VIGÈNERE**
+
+|H|O|L|A|M|U|N|D|O|
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|S|O|L|S|O|L|S|O|L|
+|+18|+14|+11|+18|+14|+11|+18|+14|+11|
+|Z|C|W|S|A|F|F|R|Z|
+
+- Texto codificado: ZCWSAFFRZ.
