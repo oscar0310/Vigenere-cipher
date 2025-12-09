@@ -5,13 +5,13 @@ from vigenere_classes import *
     uv run main.py <fichero_entrada> <clave> <modo>
     donde <fichero_entrada> es el fichero que contiene el mensaje a cifrar o descifrar,
     <clave> es la clave a usar para el cifrado/descifrado,
-    y <modo> es 'true' para cifrar o 'false' para descifrar
+    y <modo> es '1' para cifrar o '0' para descifrar
 """
 
 def readTxt(fichero):
     with open(fichero,'r') as f:
         lines = f.readlines()
-    accum = [k[:-1] for k in lines]
+    accum = [k for k in lines]
     return ''.join(accum)
 
 
