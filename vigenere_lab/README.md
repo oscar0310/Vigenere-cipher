@@ -32,9 +32,25 @@ El laboratorio incluye:
 
 ---
 
-## ⚙️ Creación del entorno (recomendado)
+## Creación del entorno (recomendado)
 
 Desde la raíz del repositorio, ejecutar:
 
 ```bash
 conda env create -f environment.yml
+```
+## Ejecucion del entorno
+
+1. Activar el entorno con Anaconda
+
+```bash
+conda activate vigenere-lab
+```
+2. Iniciar Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+3. Abrir el archivo vigenere_lab.ipynb
+
+4. Ejecutar las celdas en orden de arriba hacia abajo
